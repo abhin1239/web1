@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Department of B.Tech CSE at Federal Institute of Science and Technology. Explore programmes, faculty, facilities and admissions."
+    />
+    <title>Academics | Federal Institute of Science and Technology</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <span>✦ Learn today. Lead tomorrow.</span
+        ><span>Admissions open · Academic year 2026–27</span>
+      </div>
+    </div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">F</span
+          ><span>FISAT <small>College of Engineering</small></span></a
+        >
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html" data-page="index">Home</a
+          ><a href="about.html" data-page="about">About</a
+          ><a href="academics.html" data-page="academics" class="active"
+            >Academics</a
+          ><a href="faculty.html" data-page="faculty">Faculty</a
+          ><a href="facilities.html" data-page="facilities">Facilities</a
+          ><a href="contact.html" data-page="contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Enquire now ↗</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs">
+            <a href="index.html">Home</a> / Academics
+          </div>
+          <span class="eyebrow">Learn with direction</span>
+          <h1>Strong fundamentals.<br />Endless possibilities.</h1>
+          <p>
+            Explore the programme structure, core learning areas and practical
+            opportunities that shape a confident computing graduate.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Academic programmes</span>
+              <h2>A foundation for a changing field.</h2>
+            </div>
+            <p>
+              Use the following as a sample programme overview. Confirm actual
+              programme titles, eligibility, intake and regulations with your
+              college.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card programme">
+              <span class="tag">UNDERGRADUATE</span>
+              <h3>B.Tech CSE</h3>
+              <p>
+                Core study in programming, algorithms, databases, operating
+                systems, networks and software design.
+              </p>
+              <div class="meta">
+                <span>Duration: 4 years</span><span>Full-time</span>
+              </div>
+            </article>
+            <article class="card programme">
+              <span class="tag">SPECIALISATION</span>
+              <h3>AI, Data Science & Intelligent Systems</h3>
+              <p>
+                Explore data analysis, machine learning foundations, intelligent
+                applications and responsible use of AI.
+              </p>
+              <div class="meta">
+                <span>Electives / projects</span><span>Applied focus</span>
+              </div>
+            </article>
+            <article class="card programme">
+              <span class="tag">ENRICHMENT</span>
+              <h3>Innovation & Research Projects</h3>
+              <p>
+                Develop prototypes, investigate real problems and communicate
+                findings through project showcases.
+              </p>
+              <div class="meta">
+                <span>Mentored</span><span>Project-based</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section-white" id="curriculum">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Curriculum snapshot</span>
+              <h2>What you’ll learn.</h2>
+            </div>
+            <p>
+              A sample four-stage learning journey. Your official syllabus may
+              differ.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <span class="tag">YEAR 01</span>
+              <h3>Foundations</h3>
+              <p>
+                Programming basics, mathematics for computing, digital logic,
+                communication and problem-solving.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag">YEAR 02</span>
+              <h3>Core computer science</h3>
+              <p>
+                Data structures, algorithms, object-oriented programming,
+                databases and computer architecture.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag">YEAR 03</span>
+              <h3>Systems & specialisation</h3>
+              <p>
+                Operating systems, networks, software engineering, security, AI
+                and technical electives.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag">YEAR 04</span>
+              <h3>Integration & impact</h3>
+              <p>
+                Capstone project, internship or industry exposure, advanced
+                electives and professional practice.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag">PRACTICE</span>
+              <h3>Laboratory learning</h3>
+              <p>
+                Apply concepts through coding exercises, experiments, team
+                assignments and demonstrations.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag">PROGRESSION</span>
+              <h3>Career & higher studies</h3>
+              <p>
+                Build technical portfolios and prepare for software roles,
+                research pathways and further study.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container split">
+          <div>
+            <span class="eyebrow">Learning outcomes</span>
+            <h2>Graduate ready to reason, build and collaborate.</h2>
+            <p>
+              Our intended learning approach helps students connect theory to
+              practice and explain the reasoning behind their solutions.
+            </p>
+            <ul class="check-list">
+              <li>Analyse problems and design appropriate algorithms</li>
+              <li>Develop, test and maintain software applications</li>
+              <li>Work with data, systems and networks</li>
+              <li>Communicate technical ideas and collaborate effectively</li>
+              <li>
+                Consider security, accessibility, ethics and social impact
+              </li>
+            </ul>
+          </div>
+          <div class="visual-panel">
+            <div class="mini-card">
+              <strong>Learn → Apply → Reflect</strong
+              ><small>A cycle for continuous improvement.</small>
+            </div>
+            <div class="mini-card" style="margin-left: auto">
+              <strong>Portfolio mindset</strong
+              ><small>Show what you know through real work.</small>
+            </div>
+            <div class="orb"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-white">
+        <div class="container">
+          <div class="banner">
+            <div>
+              <h2>Need programme or admission information?</h2>
+              <p>
+                Contact the department to ask about official requirements and
+                academic guidance.
+              </p>
+            </div>
+            <a class="btn btn-light" href="contact.html">Make an enquiry ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="index.html"
+              ><span class="brand-mark">F</span
+              ><span style="color: white"
+                >FISAT
+                <small style="color: #aab8d0"
+                  >College of Engineering</small
+                ></span
+              ></a
+            >
+            <p style="margin-top: 18px; max-width: 310px">
+              A learning community where curiosity becomes capability and ideas
+              become impact.
+            </p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <div class="footer-links">
+              <a href="about.html">About department</a
+              ><a href="academics.html">Academic programmes</a
+              ><a href="faculty.html">Our faculty</a
+              ><a href="facilities.html">Campus facilities</a>
+            </div>
+          </div>
+          <div>
+            <h4>Student resources</h4>
+            <div class="footer-links">
+              <a href="academics.html#curriculum">Curriculum</a
+              ><a href="facilities.html#labs">Laboratories</a
+              ><a href="contact.html">Admissions enquiry</a
+              ><a href="contact.html#faq">FAQs</a>
+            </div>
+          </div>
+          <div>
+            <h4>Get in touch</h4>
+            <p>
+              Department of B.Tech CSE<br />Federal Institute of Science and
+              Technology, Angamaly<br />Kerala, India
+            </p>
+            <a href="mailto:cs@fisat.example">cs@fisat.example</a>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© <span data-year></span> Federal Institute of Science and
+            Technology. Demo website for academic use.</span
+          ><span
+            >Designed for learning · Built with HTML, CSS & JavaScript</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
