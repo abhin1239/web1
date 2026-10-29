@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Department of B.Tech CSE at Federal Institute of Science and Technology. Explore programmes, faculty, facilities and admissions."
+    />
+    <title>Contact | Federal Institute of Science and Technology</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <span>✦ Learn today. Lead tomorrow.</span
+        ><span>Admissions open · Academic year 2026–27</span>
+      </div>
+    </div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">F</span
+          ><span>FISAT <small>College of Engineering</small></span></a
+        >
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html" data-page="index">Home</a
+          ><a href="about.html" data-page="about">About</a
+          ><a href="academics.html" data-page="academics">Academics</a
+          ><a href="faculty.html" data-page="faculty">Faculty</a
+          ><a href="facilities.html" data-page="facilities">Facilities</a
+          ><a href="contact.html" data-page="contact" class="active">Contact</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Enquire now ↗</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs"><a href="index.html">Home</a> / Contact</div>
+          <span class="eyebrow">We’re here to help</span>
+          <h1>Let’s start a conversation.</h1>
+          <p>
+            Have a question about the department, programmes or campus
+            facilities? Send an enquiry or use the contact information below.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <span class="eyebrow">Contact information</span>
+            <h2>Connect with our department.</h2>
+            <p>
+              Replace these demo details with your college’s official contact
+              information before publishing.
+            </p>
+            <div class="contact-item">
+              <div class="icon-box">⌖</div>
+              <div>
+                <strong>Visit us</strong>
+                <p>
+                  Department of B.Tech CSE<br />Federal Institute of Science and
+                  Technology<br />Angamaly, Kerala, India
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-box">✉</div>
+              <div>
+                <strong>Email</strong>
+                <p>
+                  <a href="mailto:cs@fisat.example" style="color: var(--blue)"
+                    >cs@fisat.example</a
+                  ><br />General department enquiries
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-box">☎</div>
+              <div>
+                <strong>Call</strong>
+                <p>
+                  +91 98765 43210<br />Monday–Friday, 9:00 AM–4:00 PM (sample
+                  hours)
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-box">◷</div>
+              <div>
+                <strong>Office hours</strong>
+                <p>Monday to Friday<br />9:00 AM – 4:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-card">
+            <h3>Send an enquiry</h3>
+            <p>
+              Fill in the details below and we’ll help you find the right
+              information.
+            </p>
+            <form id="contact-form">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Full name *</label
+                  ><input
+                    id="name"
+                    name="name"
+                    required
+                    autocomplete="name"
+                    placeholder="Your full name"
+                  />
+                </div>
+                <div class="field">
+                  <label for="email">Email address *</label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                  />
+                </div>
+              </div>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="phone">Phone number</label
+                  ><input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    placeholder="+91"
+                  />
+                </div>
+                <div class="field">
+                  <label for="topic">Enquiry topic *</label
+                  ><select id="topic" name="topic" required>
+                    <option value="">Choose a topic</option>
+                    <option>Academic programmes</option>
+                    <option>Admissions</option>
+                    <option>Faculty</option>
+                    <option>Facilities</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="message">Your message *</label
+                ><textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="How can we help you?"
+                ></textarea>
+              </div>
+              <button class="btn" type="submit">Submit enquiry ↗</button>
+              <div
+                class="notice"
+                id="form-notice"
+                role="status"
+                aria-live="polite"
+              ></div>
+              <p style="font-size: 0.78rem; margin-top: 15px">
+                Demo notice: this front-end form does not transmit or store your
+                message. Connect it to a secure backend to receive submissions.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="section section-white" id="faq">
+        <div class="container" style="max-width: 850px">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Quick answers</span>
+              <h2>Frequently asked questions.</h2>
+            </div>
+          </div>
+          <details class="faq">
+            <summary>Where can I find official admission requirements?</summary>
+            <p>
+              Check your college’s official admission prospectus or contact the
+              admissions office. This demonstration site does not provide
+              verified eligibility or application deadlines.
+            </p>
+          </details>
+          <details class="faq">
+            <summary>Can I visit the department?</summary>
+            <p>
+              Contact the department in advance to confirm visitor permissions,
+              available hours and any campus entry requirements.
+            </p>
+          </details>
+          <details class="faq">
+            <summary>How can I learn more about the programme?</summary>
+            <p>
+              Review the Academics page for a sample overview, then confirm the
+              current syllabus and programme details with the college.
+            </p>
+          </details>
+          <details class="faq">
+            <summary>Does the enquiry form send a message?</summary>
+            <p>
+              No. It demonstrates front-end form validation only. A backend or
+              trusted form service must be connected for real submissions.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="index.html"
+              ><span class="brand-mark">F</span
+              ><span style="color: white"
+                >FISAT
+                <small style="color: #aab8d0"
+                  >College of Engineering</small
+                ></span
+              ></a
+            >
+            <p style="margin-top: 18px; max-width: 310px">
+              A learning community where curiosity becomes capability and ideas
+              become impact.
+            </p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <div class="footer-links">
+              <a href="about.html">About department</a
+              ><a href="academics.html">Academic programmes</a
+              ><a href="faculty.html">Our faculty</a
+              ><a href="facilities.html">Campus facilities</a>
+            </div>
+          </div>
+          <div>
+            <h4>Student resources</h4>
+            <div class="footer-links">
+              <a href="academics.html#curriculum">Curriculum</a
+              ><a href="facilities.html#labs">Laboratories</a
+              ><a href="contact.html">Admissions enquiry</a
+              ><a href="contact.html#faq">FAQs</a>
+            </div>
+          </div>
+          <div>
+            <h4>Get in touch</h4>
+            <p>
+              Department of B.Tech CSE<br />Federal Institute of Science and
+              Technology, Angamaly<br />Kerala, India
+            </p>
+            <a href="mailto:cs@fisat.example">cs@fisat.example</a>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© <span data-year></span> Federal Institute of Science and
+            Technology. Demo website for academic use.</span
+          ><span
+            >Designed for learning · Built with HTML, CSS & JavaScript</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
